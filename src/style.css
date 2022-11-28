@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -6,7 +8,8 @@
   margin: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -15,19 +18,78 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
-#root, #__next {
+#root,
+#__next {
   isolation: isolate;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0 0;
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.menu__item{
+  cursor: pointer;
+}
+
+.menu__item a {
+  text-decoration: none;
+  color: grey;
+  
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.visible {
+  display: block !important;
+}
+
+footer {
+  background-color: gray;
+}
+
+#movies-section,
+#about-section,
+#contact-section {
+  display: none;
 }
