@@ -11,6 +11,8 @@
 html,
 body {
   height: 100%;
+  background-color: black;
+  color: azure;
 }
 
 body {
@@ -96,6 +98,10 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.tv-img img {
+width: 160px;
 }
 
 .container {
