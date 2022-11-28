@@ -4,7 +4,7 @@ export const displayTVShows = (tvShows) => tvShows.slice(0, 12).forEach((tvShow)
   const content = `
       <div class="container">
         <div class="tv-img">
-        <img src="${tvShow.image.medium}" alt="">
+        <img src="${tvShow.image.medium}" alt="${tvShow.name} image">
       </div>
       <div class="tvshows-content">
         <p>${tvShow.name}</p>
