@@ -55,7 +55,7 @@ h6 {
   padding: 20px 0 0 0;
 }
 
-.logo{
+.logo {
   cursor: pointer;
 }
 
@@ -65,14 +65,13 @@ h6 {
   gap: 20px;
 }
 
-.menu__item{
+.menu__item {
   cursor: pointer;
 }
 
 .menu__item a {
   text-decoration: none;
-  color: grey;
-  
+  color: rgb(161, 161, 161);
 }
 
 .wrapper {
