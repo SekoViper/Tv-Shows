@@ -11,6 +11,8 @@
 html,
 body {
   height: 100%;
+  background-color: black;
+  color: azure;
 }
 
 body {
@@ -55,7 +57,7 @@ h6 {
   padding: 20px 0 0 0;
 }
 
-.logo{
+.logo {
   cursor: pointer;
 }
 
@@ -65,14 +67,13 @@ h6 {
   gap: 20px;
 }
 
-.menu__item{
+.menu__item {
   cursor: pointer;
 }
 
 .menu__item a {
   text-decoration: none;
-  color: grey;
-  
+  color: rgb(161, 161, 161);
 }
 
 .wrapper {
@@ -88,8 +89,21 @@ footer {
   background-color: gray;
 }
 
-#movies-section,
 #about-section,
 #contact-section {
   display: none;
+}
+
+.shows-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tv-img img {
+  width: 160px;
+}
+
+.container {
+  margin-bottom: 20px;
 }

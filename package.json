@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/SekoViper/Tv-Shows#readme",
   "dependencies": {
-    "crypto-browserify": "^3.12.0",
     "file-system": "^2.2.2",
     "fs": "^0.0.1-security",
     "node-fetch": "^3.3.0",
