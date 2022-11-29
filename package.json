@@ -19,15 +19,14 @@
     "url": "https://github.com/SekoViper/Tv-Shows/issues"
   },
   "homepage": "https://github.com/SekoViper/Tv-Shows#readme",
-
   "dependencies": {
+    "babel-eslint": "^10.1.0",
     "dotenv-webpack": "^8.0.1",
     "fs": "^0.0.1-security",
     "node-fetch": "^3.3.0",
     "webpack": "^5.75.0",
     "webpack-merge": "^5.8.0"
   },
-
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.19.6",
     "css-loader": "^6.7.1",
