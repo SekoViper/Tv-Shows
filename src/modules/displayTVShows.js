@@ -1,6 +1,6 @@
 const tvShowsContainer = document.getElementById('shows-container');
 
-export const displayTVShows = (tvShows) => tvShows.slice(0, 12).forEach((tvShow) => {
+export const displayTVShows = (tvShows, like) => tvShows.slice(0, 12).forEach((tvShow, index) => {
   const content = `
       <div class="main-container">
         <div class="tv-img">
@@ -8,7 +8,7 @@ export const displayTVShows = (tvShows) => tvShows.slice(0, 12).forEach((tvShow)
       </div>
       <div class="tvshows-content">
         <p>${tvShow.name}</p>
-        <p>Rating: ${tvShow.rating.average}</p>
+        <p>Likes: ${like[index] ? like[index].likes : 0}</p>
       </div>
 
       <div class="popup-section container-md">
