@@ -98,6 +98,7 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 5px;
 }
 
 .tv-img img {
@@ -111,6 +112,7 @@ footer {
 
 .main-container {
   margin-bottom: 20px;
+  flex: 1;
 }
 
 .popup-first-section {
