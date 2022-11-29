@@ -23,7 +23,7 @@ export const displayTVShows = (tvShows) => tvShows.slice(0, 12).forEach((tvShow)
                   </div>
                   <div class="popup-first-section modal-header">
                     
-                    <img class="popup-image" src="${tvShow.image.original}" alt="">
+                    <img class="popup-image" src="${tvShow.image.original}" alt="${tvShow.name} image">
                     <h2> ${tvShow.name} </h2>
                   </div>
 
