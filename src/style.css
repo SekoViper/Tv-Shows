@@ -96,7 +96,6 @@ footer {
 
 .shows-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -104,6 +103,25 @@ footer {
   width: 160px;
 }
 
-.container {
+.btn-close {
+  color: white;
+  background-color: white;
+}
+
+.main-container {
   margin-bottom: 20px;
+}
+
+.popup-first-section {
+  background: rgb(20, 19, 19);
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(35, 34, 34);
+}
+
+.popup-image {
+  width: 50%;
 }
