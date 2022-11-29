@@ -44,9 +44,23 @@ export const displayTVShows = (tvShows) => tvShows.slice(0, 12).forEach((tvShow)
                     ${tvShow.summary}
                   </div>
                   <div class="popup-forth-section modal-header">
-                  <h2> Comments </h2>
-                  <p>...</p>
-                </div>
+                  <div class="comments-title">
+                      <h2> Comments </h2>
+                      <span class="comment-count-${tvShow.id}"></span>
+                    </div>
+                    <div class="get-comments-tag-${tvShow.id}">
+                    </div>
+                  </div>
+                  <div class="popup-fiveth-section modal-header">
+                    <h2> Create a Comment </h2>
+                    <form class="comment-form" id=${tvShow.id} method="post">
+                      <input id="input-name-${tvShow.id}" class="form-input" type="text" placeholder="Your Name" value="" required>
+                      <textarea name="user_message" id="input-comments-${tvShow.id}" class="form-text-area" placeholder="Your Comments" value="" maxlength="600" required></textarea>
+                      <div class="form-submit-buttons">
+                        <button type="submit" class="form-submit-button">Submit</button>
+                      <div>
+                    </form>
+                
                 </div>
               <div>
             </div>
