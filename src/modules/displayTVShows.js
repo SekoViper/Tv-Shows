@@ -10,11 +10,9 @@ export const displayTVShows = (tvShows) => tvShows.slice(0, 12).forEach((tvShow)
         <p>${tvShow.name}</p>
         <p>Rating: ${tvShow.rating.average}</p>
       </div>
-      <button id="comment">Comment</button>
-      </div>
 
       <div class="popup-section container-md">
-          <button class="view-more" type="button" data-bs-toggle="modal" data-bs-target="#myModal-${tvShow.id}"> See Project </button>
+          <button class="view-more" type="button" data-bs-toggle="modal" data-bs-target="#myModal-${tvShow.id}"> Comment </button>
             <div class="modal" id="myModal-${tvShow.id}">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -55,6 +53,8 @@ export const displayTVShows = (tvShows) => tvShows.slice(0, 12).forEach((tvShow)
           </div>
         </div>
       </div>
+    </div>
+
   `;
   tvShowsContainer.insertAdjacentHTML('beforeend', content);
 });
