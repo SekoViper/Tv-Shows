@@ -1,23 +1,23 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 html,
 body {
-    height: 100%;
-    background-color: black;
-    color: azure;
+  height: 100%;
+  background-color: black;
+  color: azure;
 }
 
 body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 img,
@@ -25,15 +25,15 @@ picture,
 video,
 canvas,
 svg {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 p,
@@ -43,106 +43,101 @@ h3,
 h4,
 h5,
 h6 {
-    overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 #root,
 #__next {
-    isolation: isolate;
+  isolation: isolate;
 }
 
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0 0;
 }
 
 .logo {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .menu {
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
 }
 
 .menu__item {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .menu__item a {
-    text-decoration: none;
-    color: rgb(161, 161, 161);
+  text-decoration: none;
+  color: rgb(161, 161, 161);
 }
 
 .wrapper {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .visible {
-    display: block !important;
+  display: block !important;
 }
 
 footer {
-    background-color: gray;
+  background-color: gray;
 }
 
 #about-section,
 #contact-section {
-    display: none;
+  display: none;
 }
 
 .shows-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .tv-img img {
-    width: 160px;
+  width: 160px;
 }
 
 .btn-close {
-    color: white;
-    background-color: white;
+  color: white;
+  background-color: white;
 }
 
 .main-container {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .popup-first-section {
-    background: rgb(20, 19, 19);
+  background: rgb(20, 19, 19);
 }
 
 .modal-header {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(35, 34, 34);
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(35, 34, 34);
 }
 
 .popup-image {
-    width: 50%;
+  width: 50%;
 }
 
 .comment-form {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.comment-form {
-    width: 50%;
-    outline: none;
-    border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
 }
 
 .form-submit-buttons {
-    display: flex;
-    border: none;
-    justify-content: space-around;
-    margin-left: 90px;
-    margin-top: 10px;
+  display: flex;
+  border: none;
+  justify-content: space-around;
+  margin-left: 90px;
+  margin-top: 10px;
 }

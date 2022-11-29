@@ -46,8 +46,6 @@ const grabId = async () => {
         `apps/${APPENDPOINTID}/comments?item_id=${itemId}`,
       );
       const comments = await renderComments(API_PATH);
-      console.log(comments);
-      console.log(itemId);
 
       populateComments(comments, itemId);
     });
@@ -63,8 +61,6 @@ const fillComments = async () => {
       const API_PATH = BASECOMMENTSAPI.concat(
         `apps/${APPENDPOINTID}/comments?item_id=${itemId}`,
       );
-
-      console.log(API_PATH);
 
       const comments = await renderComments(API_PATH);
       const listItems = document.createElement('ul');
