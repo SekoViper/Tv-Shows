@@ -2,6 +2,7 @@ import { popupArrange } from '../commentUtils.js';
 import { getTVShows } from './createTVShow.js';
 import { displayTVShows } from './displayTVShows.js';
 import { getLikes } from './getLikes.js';
+import { counter } from './itemCounter.js';
 import { likeCount } from './tvShowsLike.js';
 
 export const show = async () => {
@@ -10,6 +11,7 @@ export const show = async () => {
   await displayTVShows(tvShow, like);
   likeCount();
   popupArrange();
+  counter();
 };
 
 export default show;
