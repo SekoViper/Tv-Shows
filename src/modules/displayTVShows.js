@@ -12,7 +12,8 @@ export const displayTVShows = (tvShows) => tvShows.slice(0, 12).forEach((tvShow)
       </div>
 
       <div class="popup-section container-md">
-          <button class="view-more" type="button" data-bs-toggle="modal" data-bs-target="#myModal-${tvShow.id}"> Comment </button>
+          <button class="view-more" type="button" data-bs-toggle="modal" id="${tvShow.id}" data-bs-target="#myModal-${tvShow.id}"> Comment </button>
+
             <div class="modal" id="myModal-${tvShow.id}">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -53,7 +54,7 @@ export const displayTVShows = (tvShows) => tvShows.slice(0, 12).forEach((tvShow)
                   </div>
                   <div class="popup-fiveth-section modal-header">
                     <h2> Create a Comment </h2>
-                    <form class="comment-form" id=${tvShow.id} method="post">
+                    <form class="comment-form" id="${tvShow.id}" method="post">
                       <input id="input-name-${tvShow.id}" class="form-input" type="text" placeholder="Your Name" value="" required>
                       <textarea name="user_message" id="input-comments-${tvShow.id}" class="form-text-area" placeholder="Your Comments" value="" maxlength="600" required></textarea>
                       <div class="form-submit-buttons">
