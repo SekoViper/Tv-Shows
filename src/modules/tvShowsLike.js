@@ -1,6 +1,6 @@
 import { getTVShows } from './createTVShow.js';
 import { displayTVShows } from './displayTVShows.js';
-import { getLikes } from './getLikes';
+import { getLikes } from './getLikes.js';
 
 const tvShowsContainer = document.getElementById('shows-container');
 
@@ -22,13 +22,12 @@ export const likeCount = async () => {
         const dataTvShow = await getTVShows();
         const itemId = dataTvShow.find((x) => x.id === index + 1);
 
-        console.log(itemId);
-
-        await createLikes(itemId);
+        await createLikes(itemId.id);
 
         const tvShows = await getTVShows();
         const like = await getLikes();
         tvShowsContainer.innerHTML = '';
+
         await displayTVShows(tvShows, like);
         await likeCount();
       } else {
