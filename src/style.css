@@ -128,3 +128,18 @@ footer {
 .popup-image {
   width: 50%;
 }
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+}
+
+.form-submit-buttons {
+  display: flex;
+  border: none;
+  justify-content: space-around;
+  margin-left: 90px;
+  margin-top: 10px;
+}
