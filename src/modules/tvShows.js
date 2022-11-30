@@ -1,4 +1,4 @@
-import { popupArrange, test } from '../commentUtils.js';
+import { popupArrange } from '../commentUtils.js';
 import { getTVShows } from './createTVShow.js';
 import { displayTVShows } from './displayTVShows.js';
 import { getLikes } from './getLikes.js';
@@ -9,7 +9,6 @@ export const show = async () => {
   const like = await getLikes();
   await displayTVShows(tvShow, like);
   likeCount();
-  test();
   popupArrange();
 };
 

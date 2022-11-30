@@ -1,13 +1,5 @@
 import { renderComments, populateComments } from './modules/renderComments.js';
 
-export const test = () => {
-  const buttons = document.querySelectorAll('.view-more');
-  buttons.forEach((btndeta) => {
-    btndeta.addEventListener('click', () => {
-    });
-  });
-};
-
 const BASECOMMENTSAPI = process.env.BASECOMMENTSAPI || '';
 const APPENDPOINTID = process.env.APPENDPOINTID || '';
 
@@ -78,4 +70,4 @@ export const popupArrange = async () => {
   await grabId();
 };
 
-export default { test, popupArrange };
+export default { popupArrange };
