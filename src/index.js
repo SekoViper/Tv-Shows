@@ -18,7 +18,7 @@ const grabId = async () => {
       e.preventDefault();
 
       itemId = button.id;
-      console.log(itemId);
+
       const inputNameTag = document.getElementById(`input-name-${itemId}`);
       const inputCommentsTag = document.getElementById(`input-comments-${itemId}`);
 
@@ -57,7 +57,6 @@ const fillComments = async () => {
   document.querySelectorAll('.view-more').forEach((detailButton) => {
     detailButton.addEventListener('click', async () => {
       const itemId = detailButton.id;
-      console.log(itemId);
 
       const API_PATH = BASECOMMENTSAPI.concat(
         `apps/${APPENDPOINTID}/comments?item_id=${itemId}`,
