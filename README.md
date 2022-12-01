@@ -1,15 +1,5 @@
 # Tv-Shows
 <a name="readme-top"></a>
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -88,7 +78,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Click here for live demo](https://mkaya13.github.io/movie_app/dist/index.html)
+- [Click here for live demo](https://sekoviper.github.io/Tv-Shows/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,7 +178,7 @@
 
 > Contributions, issues, and feature requests are welcome!
 
-> Feel free to check the [issues page](https://github.com/mkaya13/movie_app/issues).
+> Feel free to check the [issues page](https://github.com/sekoviper/tv-shows/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
