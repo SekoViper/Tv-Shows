@@ -1,5 +1,7 @@
 # Tv-Shows
+
 <a name="readme-top"></a>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -146,11 +148,11 @@
 
 > Mention all of the collaborators of this project.
 
-👤 Oshie 
+👤 Oshie
 
-- GitHub: [@mkaya](https://github.com/)
-- Twitter: [@mkaya133](https://twitter.com/)
-- LinkedIn: [@mert-kaya](https://www.linkedin.com/in/)
+- GitHub: [@akror-valiev](https://github.com/akhror-valiev)
+- Twitter: [@oshie0115](https://twitter.com/oshie0115)
+- LinkedIn: [@akhror-valiev](https://www.linkedin.com/in/akhror-valiev-9141911b8/)
 
 👤 Seko Dameh
 
