@@ -86,9 +86,28 @@ h6 {
 }
 
 footer {
-  background-color: gray;
+  background-color: rgb(0, 0, 0);
+  height: 40vh;
+  display: flex;
+  align-items: center;
 }
 
+.footer__element {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quicl__links--items {
+  display: flex;
+  gap: 50px;
+}
+
+.social__icons {
+  display: flex;
+  gap: 20px;
+}
+
+#movies-section,
 #about-section,
 #contact-section {
   display: none;
@@ -111,6 +130,35 @@ footer {
 
 .main-container {
   margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-container:hover {
+  animation: bg-spin 1s linear infinite;
+  border: 1px solid red;
+
+  /* border: 2px solid #fff; */
+  background-image:
+    conic-gradient(
+      from var(--border-angle),
+      #213,
+      #112 50%,
+      #213
+    ),
+    conic-gradient(from var(--border-angle), transparent 20%, rgb(0, 0, 0), rgb(35, 6, 12));
+  background-size:
+    calc(100% - (var(--border-size) * 2))
+    calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
 }
 
 .popup-first-section {
@@ -140,4 +188,22 @@ footer {
   justify-content: space-around;
   margin-left: 90px;
   margin-top: 10px;
+}
+
+.movie__name {
+  font-size: 20px;
+}
+
+.movie__likes {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  justify-content: center;
+}
+
+.view-more {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 5px 9px;
 }
