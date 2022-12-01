@@ -51,8 +51,6 @@ const fillComments = async () => {
     detailButton.addEventListener('click', async () => {
       const itemId = detailButton.id;
 
-      console.log(itemId);
-
       const API_PATH = BASECOMMENTSAPI.concat(
         `apps/${APPENDPOINTID}/comments?item_id=${itemId}`,
       );

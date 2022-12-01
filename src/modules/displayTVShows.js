@@ -1,14 +1,14 @@
 const tvShowsContainer = document.getElementById('shows-container');
 
 tvShowsContainer.innerHTML = '';
-export const displayTVShows = (tvShows, like) => tvShows.slice(0, 12).forEach((tvShow, index) => {
+export const displayTVShows = (tvShows, like) => tvShows.slice(0, 15).forEach((tvShow, index) => {
   const content = `
       <div class="main-container">
         <div class="tv-img">
         <img src="${tvShow.image.medium}" alt="${tvShow.name} image">
       </div>
       <div class="tvshows-content">
-        <p>${tvShow.name}</p>
+        <p class="movie__name">${tvShow.name}</p>
         <p class="movie__likes"><i class="fa-regular fa-heart" id="${tvShow.id}" style="cursor:pointer;"></i><span class="like-number">${like.find((x) => x.item_id === index + 1) ? like.find((x) => x.item_id === index + 1).likes : 0} </span></p>
       </div>
 
