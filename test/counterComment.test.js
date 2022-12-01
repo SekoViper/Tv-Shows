@@ -6,7 +6,7 @@ describe('Tests fetch with axios', () => {
   const endpoint = BASECOMMENTSAPI.concat('apps/', APPENDPOINTID, '/comments?');
   const API_PATH_ITEM_5 = endpoint.concat('item_id=5');
   const API_PATH_ITEM_6 = endpoint.concat('item_id=6');
-  const fivethItemCommentCount = 2;
+  const fivethItemCommentCount = 5;
   const sixthItemCommentCount = 1;
   const fivethItemCommentsFirstObject = {
     username: 'Manoous',
