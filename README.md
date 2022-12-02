@@ -80,6 +80,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Click here for Kanban Booard](https://github.com/SekoViper/Tv-Shows/projects/2)
 - [Click here for live demo](https://sekoviper.github.io/Tv-Shows/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
