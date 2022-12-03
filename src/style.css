@@ -182,6 +182,14 @@ footer {
   width: 50%;
 }
 
+.comment-items {
+  list-style-type: none;
+}
+
+.comment-username {
+  color: red;
+}
+
 .form-submit-buttons {
   display: flex;
   border: none;

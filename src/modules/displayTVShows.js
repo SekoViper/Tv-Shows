@@ -47,9 +47,8 @@ export const displayTVShows = (tvShows, like) => tvShows.slice(0, 15).forEach((t
                   </div>
                   <div class="popup-forth-section modal-header">
                   <div class="comments-title">
-                      <h2> Comments </h2>
-                      <span class="comment-count-${tvShow.id}"></span>
-                    </div>
+                      <h2> Comments <span class="comment-count-${tvShow.id}"></span></h2>
+                  </div>
                     <div class="get-comments-tag-${tvShow.id}">
                     </div>
                   </div>

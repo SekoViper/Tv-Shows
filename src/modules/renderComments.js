@@ -17,7 +17,7 @@ export const populateComments = (comments, itemId) => {
   comments.forEach((comment) => {
     listItems.innerHTML += `
         <li class="each-comment">
-          <span class="item-holder"> <span class="comment-username">${comment.creation_date} ${comment.username}:</span>   ${comment.comment}</span>
+          <span class="item-holder"><span class="comment-date">(${comment.creation_date})</span>  <span class="comment-username"> ${comment.username}:</span>   ${comment.comment}</span>
         </li>
       `;
   });
